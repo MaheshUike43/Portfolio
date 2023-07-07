@@ -23,25 +23,31 @@ export default function Menu() {
       <div className='container-fluid' id='menu-bar'>
         <div className='container'>
           <div className="row">
-            <div className="col-lg-3 col-md-12">
+            <div className="col-lg-3 col-sm-6">
               <img src={logo} alt="..." id='logo' className='navbar-brand' />
-              <i className="bi bi-list" onClick={handleClick} id='menu-icon'></i>
             </div>
-            {toggle ?
-              <div className="col-lg-9 col-md-12" id='menu-list'>
-                <a className="nav-link" href='#home'>Home</a>
-                <a className="nav-link" href='#about'>About</a>
-                <a className="nav-link" href='#services'>Services</a>
-                <a className="nav-link" href='#portfolio'>Portfolio</a>
-                <a className="nav-link" href='#contact'>Contact</a>
+            {!toggle ?
+              <div className="col-lg-9 col-sm-6">
+                <div id='menu-list'>
+                  <a className="nav-link" href='#home'>Home</a>
+                  <a className="nav-link" href='#about'>About</a>
+                  <a className="nav-link" href='#services'>Services</a>
+                  <a className="nav-link" href='#portfolio'>Portfolio</a>
+                  <a className="nav-link" href='#contact'>Contact</a>
+                </div>
+                <i className="bi bi-list" onClick={handleClick} id='menu-icon'></i>
               </div>
               :
-              <div className="col-lg-9 col-md-12" id='menu-list2'>
-                <a className="nav-link" href='#home'>Home</a>
-                <a className="nav-link" href='#about'>About</a>
-                <a className="nav-link" href='#services'>Services</a>
-                <a className="nav-link" href='#portfolio'>Portfolio</a>
-                <a className="nav-link" href='#contact'>Contact</a>
+              // <></>
+              <div className="col-lg-9 col-sm-6">
+                <div id='menu-list2'>
+                  <a className="nav-link" href='#home'>Home</a>
+                  <a className="nav-link" href='#about'>About</a>
+                  <a className="nav-link" href='#services'>Services</a>
+                  <a className="nav-link" href='#portfolio'>Portfolio</a>
+                  <a className="nav-link" href='#contact'>Contact</a>
+                </div>
+                <i className="bi bi-x-lg" onClick={handleClick} id='menu-icon'></i>
               </div>
             }
           </div>
