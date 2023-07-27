@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle';
-import '../../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
+// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle';
+// import '../../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
 import './home.css';
 import Homebg from '../../assets/Home-bg.jpg';
 
@@ -44,7 +44,6 @@ export default function Home() {
               <p id='text-2'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Consequuntur doloribus exercitationem a dolore non iusto similique
-                perferendis placeat consectetur!
               </p>
               <button className='' id='btn-cv'>Download CV</button>
             </div>

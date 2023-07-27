@@ -40,6 +40,10 @@
 
 @media screen and (max-width: 768px) {
 
+    /* #menu-bar {
+        position: fixed;
+    } */
+
     .row{
         margin: 0;
     }
@@ -50,7 +54,8 @@
 
     #menu-list2 {
         display: block;
-        background: rgba(255, 255, 255, 0.308);
+        /* background: rgba(255, 255, 255, 0.308); */
+        background: #2B2C2C;    
         position: absolute;
         top: 78.13px;
         left: 0;
@@ -59,8 +64,10 @@
 
     .nav-link {
         margin: 0;
+        margin-right: 95px;
         color: #000000;
-        text-align: center;
+        text-align: right;
+        padding: 10px 0px;
     }
 
     .nav-link:hover {
