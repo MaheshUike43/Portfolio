@@ -3,16 +3,23 @@
     width: 100%;
     position: relative;
     top: 78.13px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-#abt-me{
+#abt-img{
+    height: 100%;
+    border: 10px solid #E0A80D;
+}
+
+#abt-me {
     color: #E0A80D;
     font-family: 'Mulish', sans-serif;
     font-size: 30px;
     font-weight: 700;
 }
 
-#abt-details{
+#abt-details {
     font-size: 16px;
     line-height: 30px;
     margin-top: 1.5rem;

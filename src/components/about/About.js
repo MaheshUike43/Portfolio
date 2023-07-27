@@ -1,13 +1,14 @@
 import React from 'react'
 import './about.css'
+import abtimg from '../../assets/Photo.jpg'
 
 export default function About() {
   return (
     <div id='about-section'>
       <div className='container'>
         <div className="row">
-          <div className='col-lg-4 bg-info'>
-            <img src={''} alt="..." />
+          <div className='col-lg-4'>
+            <img src={abtimg} alt="..." id='abt-img' />
           </div>
           <div className='col-lg-8'>
             <p id='abt-me'>About Me</p>
