@@ -1,6 +1,41 @@
-#Contact-Sec{
-    background-color:rgb(162, 0, 255);
+#Contact-Sec {
+    background-color: #2D2E2E;
     width: 100%;
     position: relative;
     top: 78.13px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#contact-us-head {
+    color: #E0A80D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#txt-box {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#icon {
+    font-size: 25px;
+    color: #E0A80D;
+}
+
+#cus-txt {
+    color: white;
+}
+
+#btn-send {
+    width: 100%;
+    padding: 7px 26px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    background-color: #E0A80D;
+    border: 2px solid #E0A80D;
+
 }

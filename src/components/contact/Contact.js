@@ -3,6 +3,43 @@ import './contact.css'
 
 export default function Contact() {
   return (
-    <div id='Contact-Sec'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur perspiciatis eos nisi ipsa amet voluptate, facilis voluptas odit voluptatem quos, deserunt, ex cupiditate iste qui nesciunt. Repellat odio, optio cupiditate tempora voluptate iusto eum nostrum animi, explicabo fuga maxime facere quasi alias veritatis vero non, nobis perspiciatis sint eaque praesentium aliquam beatae. Recusandae perferendis, quo, mollitia dignissimos necessitatibus tenetur iusto autem quaerat ducimus harum optio molestiae a consequatur incidunt. Blanditiis non atque omnis ducimus, animi consectetur? Ex explicabo, velit voluptate impedit aspernatur ipsam error facere nulla incidunt neque praesentium voluptas corporis quasi voluptatibus? Ab ullam nihil ad fuga ratione officia nobis perferendis laudantium itaque eum aut at illum molestiae nostrum ex doloremque cupiditate necessitatibus, atque mollitia sapiente eius maxime id obcaecati. Delectus dignissimos aliquid facilis amet placeat quam neque illum deserunt praesentium recusandae omnis velit ullam dolorem fugit hic quaerat eum asperiores ipsum maxime, cupiditate quasi! Dicta provident aliquid ratione obcaecati temporibus perferendis rem, similique, doloribus fugiat sunt ab sit possimus, facere culpa corrupti nesciunt explicabo. Sapiente obcaecati vero quas, est fugiat, labore natus cumque earum repellat animi laborum. Adipisci molestias accusamus recusandae repudiandae doloribus libero labore sed possimus ducimus alias. Provident illo dolorum adipisci saepe! Facere error earum quas!</div>
+    <div id='Contact-Sec'>
+      <div className="container">
+        <div className="row">
+          <p id='contact-us-head' className='mb-5'>Contact us</p>
+          <div className='col-lg-6'>
+            <form action="submit">
+              <div className='d-flex mb-3'>
+                <input type="text" className='form-control w-75 me-3' name="name" id="txt-box" placeholder='Name' />
+                <input type="email" className='form-control w-75' name="email" id="txt-box" placeholder='Email' />
+              </div>
+              <input type="text" className='form-control mb-3' name="subject" id="txt-box" placeholder='Subject' />
+              <textarea name="message" className='w-100' id="txt-box" placeholder='Message' cols="10" rows="10"></textarea>
+              <button className='' id='btn-send'>Send Now!</button>
+            </form>
+          </div>
+          <div className='col-lg-5 ms-5'>
+            <div>
+              <i className="bi bi-geo-alt-fill" id='icon'></i>
+              <p id='cus-txt'>263, Vivekanand Ward, Near Hanuman Mandir <br />
+                Ballarpur, Dist. Chandrapur (Maharashtra) - 442 701.
+              </p>
+            </div>
+
+            <div className='my-4'>
+              <i className="bi bi-phone mt-4" id='icon'></i>
+              <p id='cus-txt'>+91 84468 56876</p>
+              <p id='cus-txt'>+91 70200 46022</p>
+            </div>
+
+            <div>
+              <i className="bi bi-envelope-at mt-4" id='icon'></i>
+              <p id='cus-txt'>maheshuike23@gmail.com</p>
+              <p id='cus-txt'>mah526840@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }

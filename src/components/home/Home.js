@@ -44,7 +44,7 @@ export default function Home() {
               <p id='text-2'>
                 ASPIRING SOFTWARE DEVELOPER
               </p>
-              <button className='' id='btn-cv'>Download CV</button>
+              <a className='' href='https://drive.google.com/file/d/1AtO2oo2lOiweSxXT5PTwMhpOI4bnbbpI/view?usp=drive_link' id='btn-cv'>Download CV</a>
             </div>
           </div>
         </div>

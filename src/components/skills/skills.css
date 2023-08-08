@@ -1,6 +1,8 @@
-#Service-Sec{
-    background-color:aqua;
+.black-bg1 {
+    background-color: rgba(20, 20, 20, 0.719);
     width: 100%;
+    min-height: 100vh;
     position: relative;
     top: 78.13px;
+    z-index: 99;
 }

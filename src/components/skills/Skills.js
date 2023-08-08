@@ -3,6 +3,10 @@ import './skills.css'
 
 export default function Skills() {
   return (
-    <div id='Service-Sec'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur perspiciatis eos nisi ipsa amet voluptate, facilis voluptas odit voluptatem quos, deserunt, ex cupiditate iste qui nesciunt. Repellat odio, optio cupiditate tempora voluptate iusto eum nostrum animi, explicabo fuga maxime facere quasi alias veritatis vero non, nobis perspiciatis sint eaque praesentium aliquam beatae. Recusandae perferendis, quo, mollitia dignissimos necessitatibus tenetur iusto autem quaerat ducimus harum optio molestiae a consequatur incidunt. Blanditiis non atque omnis ducimus, animi consectetur? Ex explicabo, velit voluptate impedit aspernatur ipsam error facere nulla incidunt neque praesentium voluptas corporis quasi voluptatibus? Ab ullam nihil ad fuga ratione officia nobis perferendis laudantium itaque eum aut at illum molestiae nostrum ex doloremque cupiditate necessitatibus, atque mollitia sapiente eius maxime id obcaecati. Delectus dignissimos aliquid facilis amet placeat quam neque illum deserunt praesentium recusandae omnis velit ullam dolorem fugit hic quaerat eum asperiores ipsum maxime, cupiditate quasi! Dicta provident aliquid ratione obcaecati temporibus perferendis rem, similique, doloribus fugiat sunt ab sit possimus, facere culpa corrupti nesciunt explicabo. Sapiente obcaecati vero quas, est fugiat, labore natus cumque earum repellat animi laborum. Adipisci molestias accusamus recusandae repudiandae doloribus libero labore sed possimus ducimus alias. Provident illo dolorum adipisci saepe! Facere error earum quas!</div>
+    <div id='Service-Sec'>
+      <div className='black-bg1'>
+        
+      </div>
+    </div>
   )
 }

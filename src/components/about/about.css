@@ -29,12 +29,13 @@
 
 #abt-btn-cv {
     width: 160px;
-    padding: 6px 25px;
+    padding: 7px 26px;
     border-radius: 50px;
     color: white;
     background-color: #E0A80D;
     border: 2px solid #E0A80D;
     margin-right: 1rem;
+    text-decoration: none;
 
 }
 
