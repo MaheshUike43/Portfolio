@@ -12,9 +12,10 @@ export default function About() {
           </div>
           <div className='col-lg-8'>
             <p id='abt-me'>About Me</p>
-            <p id='abt-details'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit <br /><br />
-
-              magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia</p>
+            <p id='abt-details'>My Name is <b style={{ color: '#E0A80D' }}>MAHESH BANDU UIKE</b>. <br />
+              I have completed my Post-Graduation in Master of Computer Application. <br />
+              I have 3 Months of Experience as Fullstack Developer Intern in Innomatics Research Labs, Hyderabad. <br /> <br />
+              I am a skilled Fullstack developer proficient in ReactJS for front-end development, Node.js and Express.js for server-side programming, and MongoDB for database management. With expertise in REST API design and utilization, I leverage Git for efficient version control to deliver comprehensive and robust web applications.</p>
             <button className='' id='abt-btn-cv'>Download CV</button>
             <button className='' id='abt-btn-pf'>Portfolio</button>
           </div>

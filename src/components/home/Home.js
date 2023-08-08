@@ -7,7 +7,7 @@ import Homebg from '../../assets/Home-bg.jpg';
 
 export default function Home() {
   const [textIndex, setTextIndex] = useState(0);
-  const dynamicTexts = ['MAHESH UIKE', 'REACT DEVELOPER', 'UI/UX DESIGNER'];
+  const dynamicTexts = ['MAHESH UIKE', 'FULLSTACK DEVELOPER', 'UI/UX DESIGNER'];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -42,8 +42,7 @@ export default function Home() {
                 </li>
               </ul>
               <p id='text-2'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Consequuntur doloribus exercitationem a dolore non iusto similique
+                ASPIRING SOFTWARE DEVELOPER
               </p>
               <button className='' id='btn-cv'>Download CV</button>
             </div>

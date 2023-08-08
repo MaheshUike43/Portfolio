@@ -6,7 +6,7 @@ import './menu.css'
 import logo from '../../assets/Mahesh_logo1.png'
 import Home from '../home/Home'
 import About from '../about/About'
-import Services from '../services/Services'
+import Skills from '../skills/Skills'
 import Portfolio from '../portfolio/Portfolio'
 import Contact from '../contact/Contact'
 
@@ -31,7 +31,7 @@ export default function Menu() {
                 <div id='menu-list'>
                   <a className="nav-link" href='#home'>Home</a>
                   <a className="nav-link" href='#about'>About</a>
-                  <a className="nav-link" href='#services'>Services</a>
+                  <a className="nav-link" href='#skills'>Skills</a>
                   <a className="nav-link" href='#portfolio'>Portfolio</a>
                   <a className="nav-link" href='#contact'>Contact</a>
                 </div>
@@ -43,7 +43,7 @@ export default function Menu() {
                 <div id='menu-list2'>
                   <a className="nav-link" href='#home'>Home</a>
                   <a className="nav-link" href='#about'>About</a>
-                  <a className="nav-link" href='#services'>Services</a>
+                  <a className="nav-link" href='#skills'>Skills</a>
                   <a className="nav-link" href='#portfolio'>Portfolio</a>
                   <a className="nav-link" href='#contact'>Contact</a>
                 </div>
@@ -59,8 +59,8 @@ export default function Menu() {
       <div id='about'>
         <About />
       </div>
-      <div id='services'>
-        <Services />
+      <div id='skills'>
+        <Skills />
       </div>
       <div id='portfolio'>
         <Portfolio />
