@@ -5,4 +5,45 @@
     position: relative;
     top: 78.13px;
     z-index: 99;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#Skills-Sec #skills {
+    color: #E0A80D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.box{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    /* background: #e5ff00; */
+    background: #ffffff;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.box img{
+    width: auto;
+    height: 128px;
+}
+
+.box i{
+    color: #000000;
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .box{
+        width: 250px;
+    }
 }

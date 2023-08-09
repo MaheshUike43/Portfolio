@@ -4,7 +4,7 @@
     position: relative;
     top: 78.13px;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 4rem; 
 }
 
 #contact-us-head {
@@ -20,12 +20,20 @@
     border-radius: 10px;
 }
 
-#icon {
-    font-size: 25px;
-    color: #E0A80D;
+#con-details{
+    margin-top: 10px;
 }
 
-#cus-txt {
+.icon {
+    font-size: 20px;
+    color: #E0A80D;
+    border: 1px solid #E0A80D;
+    padding: 9px 12.5px;
+    border-radius: 100px;
+
+}
+
+.cus-txt {
     color: white;
 }
 
@@ -38,4 +46,12 @@
     background-color: #E0A80D;
     border: 2px solid #E0A80D;
 
+}
+
+@media screen and (max-width: 768px) {
+    
+    #con-details{
+        margin-top: 3rem;
+        text-align: center;
+    }
 }
