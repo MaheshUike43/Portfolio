@@ -3,11 +3,11 @@ import React, { useState } from 'react'
 // import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle'
 // import '../../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css'
 import './menu.css'
-import logo from '../../assets/Mahesh_logo1.png'
+import logo from '../../assets/logo.png'
 import Home from '../home/Home'
 import About from '../about/About'
 import Skills from '../skills/Skills'
-import Portfolio from '../portfolio/Portfolio'
+import Projects from '../projects/Projects'
 import Contact from '../contact/Contact'
 
 export default function Menu() {
@@ -32,7 +32,7 @@ export default function Menu() {
                   <a className="nav-link" href='#home'>Home</a>
                   <a className="nav-link" href='#about'>About</a>
                   <a className="nav-link" href='#skills'>Skills</a>
-                  <a className="nav-link" href='#portfolio'>Portfolio</a>
+                  <a className="nav-link" href='#projects'>Projects</a>
                   <a className="nav-link" href='#contact'>Contact</a>
                 </div>
                 <i className="bi bi-list" onClick={handleClick} id='menu-icon'></i>
@@ -44,7 +44,7 @@ export default function Menu() {
                   <a className="nav-link" href='#home'>Home</a>
                   <a className="nav-link" href='#about'>About</a>
                   <a className="nav-link" href='#skills'>Skills</a>
-                  <a className="nav-link" href='#portfolio'>Portfolio</a>
+                  <a className="nav-link" href='#projects'>Projects</a>
                   <a className="nav-link" href='#contact'>Contact</a>
                 </div>
                 <i className="bi bi-x-lg" onClick={handleClick} id='menu-icon'></i>
@@ -62,8 +62,8 @@ export default function Menu() {
       <div id='skills'>
         <Skills />
       </div>
-      <div id='portfolio'>
-        <Portfolio />
+      <div id='projects'>
+        <Projects />
       </div>
       <div id='contact'>
         <Contact />

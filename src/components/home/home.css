@@ -3,14 +3,13 @@
     width: 100%;
     min-height: 100vh;
     position: relative;
-    top: 78.13px;
+    top: 131.42px;
     z-index: 99;
-    margin-top: -78.13px;
 }
 
 #home-bg {
     position: fixed;
-    top: 78.13px;
+    top: 0px;
 
 }
 
@@ -45,7 +44,7 @@ p {
     font-size: 55px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #E0A80D;
+    color: #BBFF00;
 }
 
 #text-2 {
@@ -61,12 +60,16 @@ p {
     border-radius: 50px;
     color: white;
     background-color: transparent;
-    border: 2px solid #E0A80D;
+    border: 2px solid #BBFF00;
     text-decoration: none;
 
 }
 
 @media screen and (max-width: 768px) {
+    .black-bg {
+        top: 0px;
+    }
+
     #dynamic-text {
         font-size: 40px;;
     }
