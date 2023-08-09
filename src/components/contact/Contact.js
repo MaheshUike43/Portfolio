@@ -26,16 +26,25 @@ export default function Contact() {
               </p>
             </div>
 
-            <div className='my-5'>
+            <div className='' style={{margin:'40px 0px'}}>
               <i className="bi bi-phone mb-2 icon"></i>
               <p className='cus-txt mt-3'>+91 84468 56876</p>
               <p className='cus-txt'>+91 70200 46022</p>
             </div>
 
-            <div>
+            <div className='mb-4'>
               <i className="bi bi-envelope-at icon"></i>
               <p className='cus-txt mt-3'>maheshuike23@gmail.com</p>
               <p className='cus-txt'>mah526840@gmail.com</p>
+            </div>
+
+            <div id='footer-icon'>
+              <i className='bi bi-github'></i>
+              <i className='bi bi-linkedin'></i>
+              <i className='bi bi-facebook'></i>
+              <i className='bi bi-instagram'></i>
+              <i className='bi bi-twitter'></i>
+              <i className='bi bi-telegram'></i>
             </div>
           </div>
         </div>

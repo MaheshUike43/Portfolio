@@ -1,5 +1,5 @@
 #Contact-Sec {
-    background-color: #2D2E2E;
+    background-color: rgba(20, 20, 20, 0.719);
     width: 100%;
     position: relative;
     top: 131.42px;
@@ -44,8 +44,18 @@
     margin-top: 5px;
     color: rgb(0, 0, 0);
     background-color: #BBFF00;
-    border: 2px solid #BBFF00;
 
+}
+
+#footer-icon i{
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+}
+
+#footer-icon i:hover{
+    color: #BBFF00;
+    text-shadow: #BBFF00 0px 0px 5px;
 }
 
 @media screen and (max-width: 768px) {

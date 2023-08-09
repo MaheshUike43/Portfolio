@@ -1,0 +1,21 @@
+#Footer {
+    background-color: #2D2E2E;
+    width: 100%;
+    position: relative;
+    top: 131.42px;
+    z-index: 99;
+}
+
+#footer-txt{
+    color: #BBFF00;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #Footer {
+        top: 0px;
+    }
+}

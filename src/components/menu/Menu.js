@@ -9,6 +9,7 @@ import About from '../about/About'
 import Skills from '../skills/Skills'
 import Projects from '../projects/Projects'
 import Contact from '../contact/Contact'
+import Footer from '../footer/Footer'
 
 export default function Menu() {
 
@@ -68,6 +69,7 @@ export default function Menu() {
       <div id='contact'>
         <Contact />
       </div>
+      <Footer />
     </div>
   )
 }

@@ -8,7 +8,7 @@ export default function About() {
       <div className='container'>
         <div className="row">
             <p id='abt-me'>About Me</p>
-          <div className='col-lg-4 col-md-12'>
+          <div className='col-lg-4 col-md-12 text-sm-center'>
             <img src={abtimg} alt="..." id='abt-img' />
           </div>
           <div className='col-lg-8 col-md-12'>
