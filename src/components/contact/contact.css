@@ -5,11 +5,12 @@
     top: 131.42px;
     padding-top: 4rem;
     padding-bottom: 4rem; 
+    font-family: 'Mulish', sans-serif;
+
 }
 
 #contact-us-head {
     color: #BBFF00;
-    font-family: 'Mulish', sans-serif;
     font-size: 30px;
     font-weight: 700;
     text-align: center;

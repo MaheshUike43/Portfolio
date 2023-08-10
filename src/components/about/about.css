@@ -5,19 +5,21 @@
     top: 131.42px;
     padding-top: 4rem;
     padding-bottom: 6rem;
+    font-family: 'Mulish', sans-serif;
+
 }
 
 #abt-img{
     height: 100%;
-    border: 10px solid #BBFF00;
+    padding: 5px;
+    border: 2px solid #BBFF00;
 }
 
 #abt-me {
     color: #BBFF00;
-    font-family: 'Mulish', sans-serif;
     font-size: 30px;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     margin-bottom: 3rem;
 }
 
@@ -26,7 +28,6 @@
     line-height: 30px;
     margin-bottom: 2rem;
     color: #9CA8B1;
-    /* text-align: justify; */
 }
 
 #abt-btn-cv {
@@ -34,11 +35,16 @@
     padding: 7px 26px;
     border-radius: 50px;
     color: rgb(0, 0, 0);
-    background-color: #BBFF00;
-    border: 2px solid #BBFF00;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
     margin-right: 1rem;
     text-decoration: none;
 
+}
+
+#abt-btn-cv:active {
+    background-color: #BBFF00;
 }
 
 #abt-btn-pf {
@@ -49,12 +55,17 @@
     background-color: transparent;
     border: 2px solid #BBFF00;
 
+
 }
 
 @media screen and (max-width: 768px) {
 
     #about-section {
         top: 0px;
+    }
+
+    .img-box{
+        text-align: center;
     }
 
     #abt-me {

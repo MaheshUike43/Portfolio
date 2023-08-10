@@ -39,12 +39,12 @@ export default function Contact() {
             </div>
 
             <div id='footer-icon'>
-              <i className='bi bi-github'></i>
-              <i className='bi bi-linkedin'></i>
-              <i className='bi bi-facebook'></i>
-              <i className='bi bi-instagram'></i>
-              <i className='bi bi-twitter'></i>
-              <i className='bi bi-telegram'></i>
+              <a href="https://github.com/MaheshUike43/"><i className='bi bi-github'></i></a>
+              <a href="https://www.linkedin.com/in/mahesh-uike-0345/"><i className='bi bi-linkedin'></i></a>
+              <a href="https://www.facebook.com/maheshuike30/"><i className='bi bi-facebook'></i></a>
+              <a href="https://instagram.com/_mahesh.3_/"><i className='bi bi-instagram'></i></a>
+              <a href=""><i className='bi bi-twitter'></i></a>
+              <a href=""><i className='bi bi-telegram'></i></a>
             </div>
           </div>
         </div>

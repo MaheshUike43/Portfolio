@@ -8,15 +8,15 @@ import Homebg from '../../assets/Home-bg.jpg';
 export default function Home() {
   const [textIndex, setTextIndex] = useState(0);
   const dynamicTexts = ['MAHESH UIKE', 'FULLSTACK DEVELOPER', 'UI/UX DESIGNER'];
-
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex + 1) % dynamicTexts.length);
     }, 2000);
-
+    
     return () => clearInterval(interval);
   }, []);
-
+  
   return (
     <div>
       <div className='black-bg'>

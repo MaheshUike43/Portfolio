@@ -1,8 +1,28 @@
 import React from 'react'
 import './projects.css'
+import proj from '../../assets/portfolio-proj.jpg'
 
 export default function Projects() {
   return (
-    <div id='Projects-Sec'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur perspiciatis eos nisi ipsa amet voluptate, facilis voluptas odit voluptatem quos, deserunt, ex cupiditate iste qui nesciunt. Repellat odio, optio cupiditate tempora voluptate iusto eum nostrum animi, explicabo fuga maxime facere quasi alias veritatis vero non, nobis perspiciatis sint eaque praesentium aliquam beatae. Recusandae perferendis, quo, mollitia dignissimos necessitatibus tenetur iusto autem quaerat ducimus harum optio molestiae a consequatur incidunt. Blanditiis non atque omnis ducimus, animi consectetur? Ex explicabo, velit voluptate impedit aspernatur ipsam error facere nulla incidunt neque praesentium voluptas corporis quasi voluptatibus? Ab ullam nihil ad fuga ratione officia nobis perferendis laudantium itaque eum aut at illum molestiae nostrum ex doloremque cupiditate necessitatibus, atque mollitia sapiente eius maxime id obcaecati. Delectus dignissimos aliquid facilis amet placeat quam neque illum deserunt praesentium recusandae omnis velit ullam dolorem fugit hic quaerat eum asperiores ipsum maxime, cupiditate quasi! Dicta provident aliquid ratione obcaecati temporibus perferendis rem, similique, doloribus fugiat sunt ab sit possimus, facere culpa corrupti nesciunt explicabo. Sapiente obcaecati vero quas, est fugiat, labore natus cumque earum repellat animi laborum. Adipisci molestias accusamus recusandae repudiandae doloribus libero labore sed possimus ducimus alias. Provident illo dolorum adipisci saepe! Facere error earum quas!</div>
+    <div id='Projects-Sec'>
+      <div className="container">
+        <div className="row justify-content-between">
+          <p id='proj-head'>Projects</p>
+          <div className="col-lg-6 proj-box">
+            <p className='proj-title'>Portfoilo Design</p>
+            <img className='img-fluid mb-3' src={proj} alt="..." />
+            <div className='' style={{margin:"-1rem 0 0 0"}}>
+              <button className='btn-more'>More Details</button>
+              <a href="https://github.com/MaheshUike43/Portfolio.git"><i className='bi bi-github'></i></a>
+
+            </div>
+
+          </div>
+          <div className="col-lg-6 proj-box">
+
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }

@@ -1,5 +1,5 @@
 .black-bg1 {
-    background-color: rgba(20, 20, 20, 0.719);
+    background-color: rgba(66, 66, 66, 0.719);
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -22,7 +22,8 @@
     padding: 0px;
     display: flex;
     flex-direction: column;
-    background: #ffffff;
+    background: #00000073;
+    border: 2px solid #BBFF00;
     width: 250px;
     height: 250px;
     align-items: center;
@@ -37,7 +38,7 @@
 }
 
 .box i{
-    color: #000000;
+    color: #BBFF00;
     margin: 5px;
 }
 

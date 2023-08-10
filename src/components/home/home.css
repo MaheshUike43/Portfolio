@@ -52,6 +52,7 @@ p {
     line-height: 30px;
     margin-bottom: 2rem;
     color: white;
+    font-family: 'Mulish', sans-serif;
 
 }
 
@@ -62,6 +63,8 @@ p {
     background-color: transparent;
     border: 2px solid #BBFF00;
     text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+
 
 }
 
@@ -71,6 +74,7 @@ p {
     }
 
     #dynamic-text {
-        font-size: 40px;;
+        font-size: 40px;
+        ;
     }
 }
