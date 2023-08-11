@@ -1,16 +1,16 @@
 #Projects-Sec{
-    background-color:#bbff00;
+    background-color:#2D2E2E;
     width: 100%;
     position: relative;
     top: 131.42px;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     font-family: 'Mulish', sans-serif;
 
 }
 
 #proj-head{
-    color: #000000;
+    color: #BBFF00;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
@@ -19,11 +19,10 @@
 
 .proj-box{
     width: 48%;
-    border: 2px solid #000000;
 }
 
 .proj-title{
-    color: #000000;
+    color: #BBFF00;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -31,33 +30,43 @@
     margin-bottom: 1rem;
 }
 
-.proj-box:hover {
-    width: 48%;
-
+.proj-box img:hover{
+    box-shadow: #000000 0px 0px 10px;
 }
 
 .btn-more{
     border-radius: 50px;
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    border: 2px solid #000000;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
     padding: 7px 26px;
     margin-bottom: 1rem;
+}
 
-    
+.btn-more:hover{
+    background-color: #BBFF00;
+    box-shadow: #BBFF00 0px 0px 5px;
 }
 
 .proj-box i{
     text-decoration: none;
     font-size: 40px;
-    color: #000000;
+    color: #ffffff;
     padding-left: 20px;
     position: relative;
     top: 10px;
 }
 
+.proj-box i:hover{
+    color: #BBFF00;
+}
+
 @media screen and (max-width: 768px) {
     #Projects-Sec{
         top: 0px;
+    }
+
+    .proj-box{
+        width: 100%;
     }
 }
