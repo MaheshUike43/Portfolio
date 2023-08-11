@@ -19,13 +19,17 @@
 }
 
 .nav-link {
-    color: #BBFF00;
+    color: #ffffff;
     padding: 53px 0px;
     margin-left: 50px;
 }
 
 .nav-link:hover {
-    color: #000000;
+    color: #ffffff;
+}
+
+.nav-link:active {
+    color: #BBFF00;
 }
 
 
@@ -66,13 +70,9 @@
     .nav-link {
         margin: 0;
         margin-right: 95px;
-        color: #000000;
+        color: #ffffff;
         text-align: right;
         padding: 10px 0px;
-    }
-
-    .nav-link:hover {
-        color: #ffffff;
     }
 
     #menu-icon {

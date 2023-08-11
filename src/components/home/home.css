@@ -61,11 +61,16 @@ p {
     border-radius: 50px;
     color: white;
     background-color: transparent;
-    border: 2px solid #BBFF00;
+    border: 2px solid #ffffff;
     text-decoration: none;
     font-family: 'Mulish', sans-serif;
 
+}
 
+#btn-cv:active{
+    border: 2px solid #BBFF00;
+    color: #BBFF00;
+    box-shadow: #BBFF00 0px 0px 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -75,6 +80,5 @@ p {
 
     #dynamic-text {
         font-size: 40px;
-        ;
     }
 }

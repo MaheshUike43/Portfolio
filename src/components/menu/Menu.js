@@ -30,7 +30,7 @@ export default function Menu() {
             {!toggle ?
               <div className="col-lg-9 col-sm-6">
                 <div id='menu-list'>
-                  <a className="nav-link" href='#home'>Home</a>
+                  <a className="nav-link" visited href='#home'>Home</a>
                   <a className="nav-link" href='#about'>About</a>
                   <a className="nav-link" href='#skills'>Skills</a>
                   <a className="nav-link" href='#projects'>Projects</a>

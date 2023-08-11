@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle';
-// import '../../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
 import './home.css';
 import Homebg from '../../assets/Home-bg.jpg';
 
@@ -15,10 +12,11 @@ export default function Home() {
     }, 2000);
     
     return () => clearInterval(interval);
+
   }, []);
   
   return (
-    <div>
+    <div id='home-section'>
       <div className='black-bg'>
         <div className='container'>
           <div className="row text-center">

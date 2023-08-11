@@ -1,5 +1,5 @@
-#Projects-Sec{
-    background-color:#2D2E2E;
+#Projects-Sec {
+    background-color: #2D2E2E;
     width: 100%;
     position: relative;
     top: 131.42px;
@@ -9,19 +9,48 @@
 
 }
 
-#proj-head{
+#proj-head {
     color: #BBFF00;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
-.proj-box{
+.proj-box {
     width: 48%;
 }
 
-.proj-title{
+#proj-details{
+    visibility: hidden;
+    height: 0px;
+    background: #BBFF00;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    text-align: justify;
+    /* transition-property: height;
+    transition-duration: 0.6s;
+    transition-timing-function: linear; */
+    transition: height 0.2s linear;
+
+}
+
+#proj-details h6{
+    font-weight: 700;
+}
+
+.proj-box:hover #proj-details{
+    visibility: visible;
+    width: 523.19px;
+    height: 325.42px;
+    background: #BBFF00;
+    position: absolute;
+    top: 0;
+
+}
+
+.proj-title {
     color: #BBFF00;
     font-size: 20px;
     font-weight: 700;
@@ -30,43 +59,30 @@
     margin-bottom: 1rem;
 }
 
-.proj-box img:hover{
-    box-shadow: #000000 0px 0px 10px;
-}
-
-.btn-more{
-    border-radius: 50px;
-    color: #000000;
-    background-color: #ffffff;
-    border: none;
-    padding: 7px 26px;
-    margin-bottom: 1rem;
-}
-
-.btn-more:hover{
-    background-color: #BBFF00;
-    box-shadow: #BBFF00 0px 0px 5px;
-}
-
-.proj-box i{
+.proj-box i {
     text-decoration: none;
     font-size: 40px;
     color: #ffffff;
-    padding-left: 20px;
-    position: relative;
-    top: 10px;
+    position: absolute;
+    bottom: 30px;
+
 }
 
-.proj-box i:hover{
-    color: #BBFF00;
+.proj-box i:active{
+    color: #000000;
+    text-shadow: #000000 0px 0px 5px;
 }
 
 @media screen and (max-width: 768px) {
-    #Projects-Sec{
+    #Projects-Sec {
         top: 0px;
     }
 
-    .proj-box{
+    .proj-box {
         width: 100%;
+    }
+
+    .proj-box:hover #proj-details{
+        width: 492px;
     }
 }
