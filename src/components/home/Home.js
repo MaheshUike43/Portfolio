@@ -42,7 +42,7 @@ export default function Home() {
               <p id='text-2'>
                 ASPIRING SOFTWARE DEVELOPER
               </p>
-              <a className='' href='https://drive.google.com/file/d/1AtO2oo2lOiweSxXT5PTwMhpOI4bnbbpI/view?usp=drive_link' id='btn-cv'>Download CV</a>
+              <a className='' href='https://drive.google.com/file/d/166-Du8l5vJsU9H7JdAhXj1x7jlo8JyUQ/view?usp=drive_link' id='btn-cv'>Download CV</a>
             </div>
           </div>
         </div>
